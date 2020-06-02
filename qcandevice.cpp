@@ -34,7 +34,8 @@ void QCanDevice::recoveryFrame(uint target)
 {
     msg.dlen = 8;
     msg.id = 0;
-    msg.rtr =
+    // 这里是什么玩意儿  没有值吗
+    msg.rtr = 
 
 }
 
